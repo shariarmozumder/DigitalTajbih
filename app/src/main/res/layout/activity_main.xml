@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="#f8bbd0"
+    >
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add One"
+        />
+
+    <Button
+        android:id="@+id/buttonSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sub One"
+        />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        />
+
+    <ImageView
+        android:id="@+id/Image"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/cover"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:id="@+id/bShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show My Image" />
+
+    <Button
+        android:id="@+id/bGone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gone "
+        />
+
+    <TextView
+        android:id="@+id/tvNextPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Me"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        />
+
+
+</LinearLayout>

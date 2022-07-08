@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivety"
+    android:orientation="vertical"
+    android:background="#00e5ff"
+
+
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Me"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:background="#FFFFFF "
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/shariar_2"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/viewTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is Shariar.I’m a Front-End And Back-End Developer located in Bangladesh.\nI have a serious passion for UI effects, animations and creating intuitive, dynamic user experiences."
+        android:gravity="left"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:paddingTop="20dp"
+        android:paddingBottom="15dp"
+        />
+
+    <Button
+        android:id="@+id/bContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="contact Me"
+        android:padding="10dp"
+
+        />
+
+
+</LinearLayout>
